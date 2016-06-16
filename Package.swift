@@ -20,7 +20,7 @@ let package = Package(
     name: "Kitura",
         dependencies: [
             .Package(url: "https://github.com/IBM-Swift/Kitura-net.git", majorVersion: 0, minor: 17),
-            .Package(url: "https://github.com/IBM-Swift/SwiftyJSON.git", majorVersion: 8),
+            .Package(url: "https://github.com/zmeyc/SwiftyJSON.git", majorVersion: 9),
             .Package(url: "https://github.com/IBM-Swift/Kitura-TemplateEngine.git", majorVersion: 0, minor: 13)
         ]
 )
